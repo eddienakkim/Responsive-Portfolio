@@ -711,49 +711,66 @@ a {
     h1 {
         display: absolute;
         background-color:#4aaaa5;
-        width: 250px;
+        width: 100%;
         height: 100px;
-        margin-left: 25px;
-        margin-top: 0px;
+        margin: 0px;
         text-align: center;
         font-weight: bolder;
         line-height: 100px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         float: left;
     }
-    .right {
-        margin-right: 40px;
-    }
+    
     
     ul {
         list-style: none;
-        float: right;
-    }
+        background-color: white;
+        display: block;
+        margin: 0px;
+        width: 100%;
+        height: 50px;
+        }
     
     li {
         text-align: center;
         vertical-align: middle;
-        line-height: 75px;
+        line-height: 55px;
         display: inline;
-        padding-left: 10px;
+        padding-left: 100px;
+    }
+
+    #list {
+        margin-left: 40px;
     }
     
     #aboutport {
         display: block;
         clear: both;
         background-color: white;
+        width: 535px;
+        margin-left: 20px;
+        margin-top: 75px;
+    }
+
+    #aboutcont {
+        display: block;
+        clear: both;
+        background-color: white;
         width: 960px;
-        margin-left: 25px;
+        margin-left: 20px;
+        margin-top: 65px;
         padding: 30px;
         width: 85%;
+        height: 500px;
     }
 
     .about {
         display: block;
         clear: both;
         background-color: white;
-        width: 650px;
-        margin-left: 25px;
+        width: 500px;
+        margin-left: 20px;
+        margin-top: 75px;
         padding: 30px;
         height: 350px;
     }
@@ -877,8 +894,8 @@ a {
     
       .three {
         position: absolute;
-        bottom: 190px;
-        left: 55px;
+        bottom: 140px;
+        left: 50px;
         background-color:#4aaaa5;
         color: white;
         padding-left: 20px;
@@ -889,8 +906,8 @@ a {
     
       .four {
         position: absolute;
-        bottom: 190px;
-        left: 275px;
+        bottom: 140px;
+        left: 270px;
         background-color:#4aaaa5;
         color: white;
         padding-left: 20px;
@@ -901,8 +918,8 @@ a {
     
       .five {
         position: absolute;
-        bottom: -45px;
-        left: 55px;
+        bottom: -95px;
+        left: 50px;
         background-color:#4aaaa5;
         color: white;
         padding-left: 20px;
